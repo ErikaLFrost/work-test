@@ -3,8 +3,9 @@ import styled from 'styled-components';
 import orangeHouse from '../assets/orange_house.jpg'
 
 const HeaderWrapper = styled.div`
+position: relative;
 width: 100%;
-height: 360px;
+height: 40vw;
 display: flex;
 flex-direction: column;
 /* background-color: blue; */
@@ -19,27 +20,51 @@ background-repeat: no-repeat;
 background-position: 50% -40vw; 
 background-image: url(${props => props.img});
 `
-const HeaderText = styled.div`
+const StyledHeaderText = styled.div`
 position: absolute;
+left: 5%; 
+top: 40%;
 color: rgb(254, 255, 255);
 text-align: start;
 padding: 5px; 
-h2{
+div {
+    display: table;
     background-color: rgb(50, 50, 49);
-}
-p{
-    background-color: rgb(50, 50, 49);
+    h2{
+        margin: 0;
+        padding: 5px;
+        font-size: 5vw;
+    }
+    p{
+        margin: 0;
+        padding: 5px;
+        font-size: 1.5vw;
+        span{
+            color: rgb(224, 62, 8);
+        }
+    }  
 }
 `
+
+const HeaderText = () => {
+    return(
+<StyledHeaderText>
+        <div>
+        <h2>Sparkonto</h2>
+        </div>
+        <div><h2>med bra ränta</h2></div>
+        <div>
+        <p>Med vårt sparkonto får du <span>0,60</span>% ränta och fria uttag.</p>
+        </div>
+</StyledHeaderText>
+)
+}
 
 const Header = () => {
 return(
     <HeaderWrapper>
         <HeaderImage img={orangeHouse}/>
-        <HeaderText>
-            <h2>Sparkonto <br/> med bra ränta</h2>
-            <p>Med vårt sparkonto får du 0,60% ränta och fira uttag.</p>
-        </HeaderText>
+        <HeaderText/>
     </HeaderWrapper>
 )
 }
