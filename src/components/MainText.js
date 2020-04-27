@@ -5,6 +5,7 @@ const MainWrapper = styled.div`
   flex-basis: 100%;
   order: 3;
   line-height: 1.5;
+  padding-top: 35px;
   div {
     width: 59%;
     text-align: start;

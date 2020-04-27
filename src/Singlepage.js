@@ -8,7 +8,7 @@ import MainText from './components/MainText';
 const Wrapper = styled.div`
   width: 100%;
   height: 100%;
-  font-family: Helvetica, Arial, Sans-Serif;
+  font-family: 'Raleway', sans-serif;
 `;
 const TextWrapper = styled.div`
   display: flex;
