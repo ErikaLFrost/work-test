@@ -4,6 +4,7 @@ import Header from './components/Header';
 import RelatedPages from './components/RelatedPages';
 import Ingress from './components/Ingress';
 import MainText from './components/MainText';
+import MoreBoxSection from './components/MoreBoxSection';
 
 const Wrapper = styled.div`
   width: 100%;
@@ -27,6 +28,7 @@ const SinglePage = () => {
         <RelatedPages />
         <MainText />
       </TextWrapper>
+      <MoreBoxSection />
     </Wrapper>
   );
 };

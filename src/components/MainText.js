@@ -35,11 +35,16 @@ const MainText = () => {
           Vi är specialister på bolån och vill hjälpa dig att göra en bättre
           affär och skaffa bättre bolån. Ditt bolån ska vara bra, smidigt och
           tryggt. Tar du bolån hos oss har du alltid tillgång till våra
-          boendespecialister som hjälper dig genom hela din affär. Vi tycker att
-          du måste kunna prata bolån med oss på tider som passar dig, eller när
-          du behöver. Därför har vi personer med rätt kompetens på plats alla
-          dagar, 8-21. Vi finns på 0771-45 30 00. Börja gärna med att planera
-          och räkna i vår lånekalkyl. Du kan göra det när du vill, dygnet runt.
+          boendespecialister som hjälper dig genom hela din affär.
+        </p>
+        <p>
+          Vi tycker att du måste kunna prata bolån med oss på tider som passar
+          dig, eller när du behöver. Därför har vi personer med rätt kompetens
+          på plats alla dagar, 8-21. Vi finns på 0771-45 30 00. Börja gärna med
+          att planera och räkna i vår lånekalkyl. Du kan göra det när du vill,
+          dygnet runt.
+        </p>
+        <p>
           Som ny bolånekund hos oss får du kostnadsfri juristhjälp och rabatt på
           försäkringar.
         </p>
