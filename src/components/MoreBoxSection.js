@@ -24,7 +24,7 @@ const BoxOne = styled.div`
   height: 30vw;
   width: 35vw;
   background-color: white;
-  margin-right: 10vw;
+  margin-right: 5vw;
   img {
     width: 60%;
     padding-top: 30px;
@@ -32,8 +32,7 @@ const BoxOne = styled.div`
   }
   p {
     font-size: 1.2vw;
-    /* line-height: 1.5; */
-    padding: 20px 4vw 4.5vw;
+    padding: 20px 4vw 4vw;
   }
   button {
     background-color: rgb(0, 153, 119);

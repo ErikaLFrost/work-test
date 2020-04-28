@@ -16,7 +16,7 @@ const StyledRelatedPages = styled.div`
   }
   h3 {
     text-transform: uppercase;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     margin-bottom: 10px;
   }
 `;
@@ -39,7 +39,7 @@ const List = styled.ul`
     margin: 0;
     padding-left: 10px;
     vertical-align: top;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
   }
 `;
 

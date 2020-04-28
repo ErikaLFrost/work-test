@@ -4,7 +4,6 @@ import styled from 'styled-components';
 const MainWrapper = styled.div`
   flex-basis: 100%;
   order: 3;
-  line-height: 1.5;
   padding-top: 2.5vw;
   div {
     width: 59%;
@@ -15,7 +14,7 @@ const MainWrapper = styled.div`
       margin-bottom: 10px;
     }
     p {
-      font-size: 1vw;
+      font-size: 1.2vw;
       margin-bottom: 12px;
       a {
         color: rgb(0, 157, 130);

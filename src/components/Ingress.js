@@ -8,7 +8,6 @@ const StyledIngress = styled.div`
   position: relative;
   margin: 0;
   width: 40%;
-  line-height: 1.5;
   text-align: start;
   p {
     font-size: 1.5vw;

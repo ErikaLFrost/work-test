@@ -4,7 +4,6 @@ import styled from 'styled-components';
 const AppInfoWrapper = styled.div`
   flex-basis: 100%;
   order: 3;
-  line-height: 1.5;
   div {
     width: 59%;
     text-align: start;
@@ -13,7 +12,7 @@ const AppInfoWrapper = styled.div`
       margin-bottom: 10px;
     }
     p {
-      font-size: 1vw;
+      font-size: 1.2vw;
       margin-bottom: 11px;
     }
   }
