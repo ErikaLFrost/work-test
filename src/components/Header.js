@@ -24,12 +24,13 @@ const StyledHeaderText = styled.div`
   position: absolute;
   left: 5%;
   top: 10vw;
-  color: rgb(254, 255, 255);
+  color: #feffff;
   text-align: start;
   padding: 5px;
   div {
     display: table;
-    background-color: rgb(50, 50, 49);
+    background-color: #323231;
+    border: #323231 1px solid;
     h2 {
       padding: 5px;
       font-size: 5vw;
@@ -40,7 +41,7 @@ const StyledHeaderText = styled.div`
       font-size: 1.7vw;
       font-weight: bold;
       span {
-        color: rgb(224, 62, 8);
+        color: #e03e08;
       }
     }
   }

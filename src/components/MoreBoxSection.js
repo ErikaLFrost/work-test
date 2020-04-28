@@ -12,7 +12,7 @@ const BoxSectionWrapper = styled.div`
   position: relative;
   order: 4;
   height: 40vw;
-  background-color: rgb(242, 242, 242);
+  background-color: #f2f2f2;
   margin-top: 3vw;
   @media (max-width: 720px) {
     flex-direction: column;
@@ -22,7 +22,7 @@ const BoxSectionWrapper = styled.div`
 
 const BoxOne = styled.div`
   height: 30vw;
-  width: 35vw;
+  width: 40vw;
   background-color: white;
   margin-right: 5vw;
   img {
@@ -42,7 +42,7 @@ const BoxOne = styled.div`
     font-size: 1vw;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 5px 3vw;
+    padding: 10px 3vw;
   }
   @media (max-width: 720px) {
     height: 50vw;
@@ -61,9 +61,9 @@ const BoxOne = styled.div`
 
 const BoxTwo = styled.div`
   height: 30vw;
-  width: 35vw;
+  width: 40vw;
   background: url(${illustration}) no-repeat;
-  background-size: 30vw;
+  background-size: 35vw;
   background-position: center;
   background-color: #009977;
   background-clip: padding-box;

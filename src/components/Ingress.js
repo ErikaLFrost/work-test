@@ -18,7 +18,7 @@ const StyledIngress = styled.div`
   &::after {
     content: '';
     width: 100%;
-    border-bottom: solid 1px rgb(235, 235, 235);
+    border-bottom: solid 1px #ebebeb;
     position: absolute;
     left: 0;
 
@@ -41,7 +41,7 @@ const Author = styled.div`
     font-size: 1vw;
     padding-left: 4px;
     a {
-      color: rgb(0, 157, 130);
+      color: #009d82;
     }
   }
   span {

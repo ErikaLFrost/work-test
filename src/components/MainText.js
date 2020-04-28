@@ -17,7 +17,7 @@ const MainWrapper = styled.div`
       font-size: 1.2vw;
       margin-bottom: 12px;
       a {
-        color: rgb(0, 157, 130);
+        color: #009d82;
       }
     }
   }
