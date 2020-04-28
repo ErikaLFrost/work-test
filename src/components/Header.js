@@ -33,10 +33,12 @@ const StyledHeaderText = styled.div`
     h2 {
       padding: 5px;
       font-size: 5vw;
+      line-height: 1;
     }
     p {
       padding: 5px;
-      font-size: 1.5vw;
+      font-size: 1.7vw;
+      font-weight: bold;
       span {
         color: rgb(224, 62, 8);
       }

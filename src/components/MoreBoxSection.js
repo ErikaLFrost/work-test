@@ -35,7 +35,7 @@ const BoxOne = styled.div`
     padding: 20px 4vw 4vw;
   }
   button {
-    background-color: rgb(0, 153, 119);
+    background-color: #009977;
     color: white;
     border: none;
     border-radius: 50px;
@@ -63,12 +63,14 @@ const BoxTwo = styled.div`
   height: 30vw;
   width: 35vw;
   background: url(${illustration}) no-repeat;
-  background-size: contain;
+  background-size: 30vw;
   background-position: center;
-  background-color: rgb(0, 153, 119);
+  background-color: #009977;
+  background-clip: padding-box;
   @media (max-width: 720px) {
     height: 50vw;
     width: 55vw;
+    background-size: 45vw;
     margin: 20px 0;
   }
 `;
