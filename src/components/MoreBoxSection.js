@@ -24,7 +24,7 @@ const BoxOne = styled.div`
     padding-top: 15px;
   }
   p {
-    padding: 0 25px;
+    padding: 0 10px;
   }
 `;
 const BoxTwo = styled.div`
