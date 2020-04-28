@@ -16,7 +16,7 @@ const StyledRelatedPages = styled.div`
   }
   h3 {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 1.5vw;
     margin-bottom: 10px;
   }
 `;
@@ -24,17 +24,22 @@ const StyledRelatedPages = styled.div`
 const List = styled.ul`
   list-style: none;
   li {
-    padding-bottom: 10px;
-    img {
-      display: inline-block;
+    padding-bottom: 1.8vw;
+    @media (max-width: 720px) {
+      padding-bottom: 0;
     }
-    p {
-      display: inline-block;
-      margin: 0;
-      padding-left: 10px;
-      vertical-align: super;
-      font-size: 1.8vw;
-    }
+  }
+  img {
+    display: inline-block;
+    width: 2vw;
+    vertical-align: top;
+  }
+  p {
+    display: inline-block;
+    margin: 0;
+    padding-left: 10px;
+    vertical-align: top;
+    font-size: 1.3vw;
   }
 `;
 

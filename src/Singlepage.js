@@ -6,6 +6,7 @@ import RelatedPages from './components/RelatedPages';
 import Ingress from './components/Ingress';
 import MainText from './components/MainText';
 import MoreBoxSection from './components/MoreBoxSection';
+import AppInfo from './components/AppInfo';
 
 const Wrapper = styled.div`
   position: relative;
@@ -16,7 +17,7 @@ const TextWrapper = styled.div`
   flex-flow: row wrap;
   width: 80%;
   margin: 0 auto;
-  padding-top: 50px;
+  margin-top: 3vw;
 `;
 
 const SinglePage = () => {
@@ -31,6 +32,9 @@ const SinglePage = () => {
           <MainText />
         </TextWrapper>
         <MoreBoxSection />
+        <TextWrapper>
+          <AppInfo />
+        </TextWrapper>
       </Wrapper>
     </>
   );

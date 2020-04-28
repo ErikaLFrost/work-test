@@ -13,6 +13,7 @@ const BoxSectionWrapper = styled.div`
   order: 4;
   height: 40vw;
   background-color: rgb(242, 242, 242);
+  margin-top: 3vw;
   @media (max-width: 720px) {
     flex-direction: column;
     height: auto;

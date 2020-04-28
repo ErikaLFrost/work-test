@@ -8,12 +8,12 @@ const StyledIngress = styled.div`
   position: relative;
   margin: 0;
   width: 40%;
-  font-size: 18px;
   line-height: 1.5;
   text-align: start;
   p {
+    font-size: 1.5vw;
     &:first-child {
-      padding-bottom: 30px;
+      padding-bottom: 2vw;
     }
   }
   &::after {
@@ -33,13 +33,13 @@ const Author = styled.div`
   padding-bottom: 20px;
   img {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: bottom;
     width: 12%;
   }
   p {
     display: inline-block;
     vertical-align: bottom;
-    font-size: 13px;
+    font-size: 1vw;
     padding-left: 4px;
     a {
       color: rgb(0, 157, 130);
@@ -48,7 +48,7 @@ const Author = styled.div`
   span {
     display: inline-block;
     vertical-align: bottom;
-    font-size: 13px;
+    font-size: 1vw;
   }
 `;
 
