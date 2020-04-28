@@ -17,7 +17,7 @@ const StyledRelatedPages = styled.div`
   h3 {
     text-transform: uppercase;
     font-size: 1.3vw;
-    margin-bottom: 10px;
+    margin-bottom: 1.8vw;
   }
 `;
 
