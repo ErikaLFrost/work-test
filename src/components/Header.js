@@ -8,7 +8,6 @@ const HeaderWrapper = styled.div`
   height: 40vw;
   display: flex;
   flex-direction: column;
-  /* background-color: blue; */
   background-image: linear-gradient(to bottom right, #bedfe4 0%, #d9eef3 100%);
 `;
 
