@@ -11,8 +11,11 @@ const MainWrapper = styled.div`
     text-align: start;
 
     h2 {
-      margin: 0;
       font-size: 20px;
+      margin-bottom: 10px;
+    }
+    p {
+      margin-bottom: 12px;
     }
   }
 `;

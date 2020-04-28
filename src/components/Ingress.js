@@ -13,7 +13,6 @@ const StyledIngress = styled.div`
   text-align: start;
   p {
     &:first-child {
-      margin: 0;
       padding-bottom: 30px;
     }
   }
@@ -40,7 +39,6 @@ const Author = styled.div`
   p {
     display: inline-block;
     vertical-align: bottom;
-    margin: 0;
     font-size: 13px;
     padding-left: 4px;
     a {
@@ -50,9 +48,7 @@ const Author = styled.div`
   span {
     display: inline-block;
     vertical-align: bottom;
-    margin: 0;
     font-size: 13px;
-    margin-right: 0;
   }
 `;
 

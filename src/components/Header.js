@@ -20,10 +20,11 @@ const HeaderImage = styled.div`
   background-position: 50% -40vw;
   background-image: url(${(props) => props.img});
 `;
+
 const StyledHeaderText = styled.div`
   position: absolute;
   left: 5%;
-  top: 40%;
+  top: 10vw;
   color: rgb(254, 255, 255);
   text-align: start;
   padding: 5px;
@@ -31,12 +32,10 @@ const StyledHeaderText = styled.div`
     display: table;
     background-color: rgb(50, 50, 49);
     h2 {
-      margin: 0;
       padding: 5px;
       font-size: 5vw;
     }
     p {
-      margin: 0;
       padding: 5px;
       font-size: 1.5vw;
       span {

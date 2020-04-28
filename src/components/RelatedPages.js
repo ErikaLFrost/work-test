@@ -17,13 +17,12 @@ const StyledRelatedPages = styled.div`
   h3 {
     text-transform: uppercase;
     font-size: 15px;
-    margin: 0;
+    margin-bottom: 10px;
   }
 `;
 
 const List = styled.ul`
   list-style: none;
-  padding: 0;
   li {
     padding-bottom: 10px;
     img {
@@ -34,6 +33,7 @@ const List = styled.ul`
       margin: 0;
       padding-left: 10px;
       vertical-align: super;
+      font-size: 1.8vw;
     }
   }
 `;

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import GlobalStyle from './components/GlobalStyle';
 import Header from './components/Header';
 import RelatedPages from './components/RelatedPages';
 import Ingress from './components/Ingress';
@@ -7,9 +8,8 @@ import MainText from './components/MainText';
 import MoreBoxSection from './components/MoreBoxSection';
 
 const Wrapper = styled.div`
-  width: 100%;
-  height: 100%;
-  font-family: 'Raleway', sans-serif;
+  position: relative;
+  width: 100vw;
 `;
 const TextWrapper = styled.div`
   display: flex;
@@ -21,15 +21,18 @@ const TextWrapper = styled.div`
 
 const SinglePage = () => {
   return (
-    <Wrapper>
-      <Header />
-      <TextWrapper>
-        <Ingress />
-        <RelatedPages />
-        <MainText />
-      </TextWrapper>
-      <MoreBoxSection />
-    </Wrapper>
+    <>
+      <GlobalStyle />
+      <Wrapper>
+        <Header />
+        <TextWrapper>
+          <Ingress />
+          <RelatedPages />
+          <MainText />
+        </TextWrapper>
+        <MoreBoxSection />
+      </Wrapper>
+    </>
   );
 };
 
